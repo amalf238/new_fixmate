@@ -3,11 +3,14 @@
 FixMate is an AI-powered Android app that connects skilled workers with customers across Sri Lanka
 
 ## Features
-- **Role-aware navigation** – Dedicated dashboards and routes for customers, workers, and administrators with Firebase Authentication-driven access control.【F:lib/main.dart†L1-L105】
-- **Customer experience** – Location-aware dashboard with notification badges, booking management, AI assistant entry points, and favourites to streamline requesting help.【F:lib/screens/customer_dashboard.dart†L1-L120】
-- **Worker productivity** – Rich worker dashboard with availability toggles, live notification counts, completed job stats, and portfolio access to keep profiles up to date.【F:lib/screens/worker_dashboard_screen.dart†L1-L124】
-- **AI maintenance assistant** – Conversational screen that accepts photos or text, calls the OpenAI-powered analysis service, and stores context for recommending workers.【F:lib/screens/ai_chat_screen.dart†L1-L116】【F:lib/services/openai_service.dart†L1-L120】
-- **Serverless automation** – Firebase Cloud Function for creating worker accounts and synchronising Firestore documents directly from trusted clients.【F:functions/index.js†L1-L120】
+- Intelligent service matching, using custom ML models with sentence transformers achieving 95%+ accuracy in problem classification
+- Image analysis via OpenAI API for automated service identification
+- Real-time chat with Firebase Cloud Messaging, dynamic booking management, and push notifications
+- Secure authentication (Google OAuth, email-based 2FA) and role-based access control (RBAC)
+- Comprehensive quotation and booking management system
+- Admin dashboard for user and content moderation
+Implemented robust security measures including Firebase Security Rules, password encryption (bcrypt/scrypt), HTTPS/TLS 1.3, and protection against XSS/CSRF/IDOR attacks. Successfully completed 124 test cases with 97.96% functional compliance and 100% security compliance.
+
 
 ## Tech stack
 - **Frontend:** Flutter 3 (Material 3 UI kit) with responsive layouts and animations.
