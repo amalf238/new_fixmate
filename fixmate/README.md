@@ -1,6 +1,6 @@
 # FixMate
 
-FixMate is a multi-role marketplace for home maintenance and repair services built with Flutter and Firebase. Customers can request help, skilled workers manage jobs and portfolios, and administrators oversee platform activity. The app also ships with an AI assistant that analyses issue descriptions or photos to recommend next steps.
+FixMate is an AI-powered Android app that connects skilled workers with customers across Sri Lanka
 
 ## Features
 - **Role-aware navigation** – Dedicated dashboards and routes for customers, workers, and administrators with Firebase Authentication-driven access control.【F:lib/main.dart†L1-L105】
