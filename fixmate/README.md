@@ -9,7 +9,8 @@ FixMate is an AI-powered Android app that connects skilled workers with customer
 - Secure authentication (Google OAuth, email-based 2FA) and role-based access control (RBAC)
 - Comprehensive quotation and booking management system
 - Admin dashboard for user and content moderation
-Implemented robust security measures including Firebase Security Rules, password encryption (bcrypt/scrypt), HTTPS/TLS 1.3, and protection against XSS/CSRF/IDOR attacks. Successfully completed 124 test cases with 97.96% functional compliance and 100% security compliance.
+- Implemented robust security measures including Firebase Security Rules, password encryption (bcrypt/scrypt), HTTPS/TLS 1.3, and protection against XSS/CSRF/IDOR attacks.
+- Successfully completed 124 test cases with 97.96% functional compliance and 100% security compliance.
 
 
 ## Tech stack
